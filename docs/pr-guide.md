@@ -5,7 +5,7 @@
 
 1. Fork the repo.
 2. Choose protocol name and version. Example: `my-cool-protocol`, `0.1`.
-3. Create a folder `site/content/protocols/<protocol-name>/<protocol-version>`.
+3. Create a folder `hugo_site/content/protocols/<protocol-name>/<protocol-version>`.
 4. Create a protocol definition document in that folder as a markdown file named`readme.md`. Use the following example as a [reference](./protocol-example.md).
 5. Send a pull request to the `main` branch.
 6. Wait until all CI checks are complete, and fix the errors if there are any. 
@@ -23,18 +23,18 @@
 
 3. If update is a `fix`
     * the version must be the same
-    * make changes in existing `site/content/protocols/<protocol-name>/<protocol-version>/readme.md`
+    * make changes in existing `hugo_site/content/protocols/<protocol-name>/<protocol-version>/readme.md`
     * send a pull request to the `main` branch
     * add `[fix]` postfix to the PR title
 4. If update is a `compatible change`
     - define a new version where minor part must be incremented (for example, from 0.1 to 0.2)
-    - copy the previous readme.md to the new folder `site/content/protocols/<protocol-name>/<new-protocol-version>`
+    - copy the previous readme.md to the new folder `hugo_site/content/protocols/<protocol-name>/<new-protocol-version>`
     - make changes in the `readme.md`
     - send a pull request to the `main` branch
     - add `[compatible]` postfix to the PR title
 5. If update is a `non-compatible change`
     - define a new version where major part must be incremented (for example, from 0.1 to 1.0)
-    - copy the previous `readme.md` to the new folder `site/content/protocols/<protocol-name>/<new-protocol-version>`
+    - copy the previous `readme.md` to the new folder `hugo_site/content/protocols/<protocol-name>/<new-protocol-version>`
     - make changes in the `readme.md`
     - send a pull request to the `main` branch
     - add `[non-compatible]` postfix to the PR title

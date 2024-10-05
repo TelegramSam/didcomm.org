@@ -1,0 +1,28 @@
+baseURL = "https://didcomm.org/"
+languageCode = "en-us"
+title = "DIDComm.org"
+
+[params]
+  description = "The world's nexus for all things DIDComm"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Protocols"
+    url = "/protocols/"
+    weight = 2
+  [[menu.main]]
+    name = "Book"
+    url = "/book/v2/"
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
