@@ -1,9 +1,13 @@
 import os
 from mkdocs.plugins import BasePlugin
 from mkdocs.structure.nav import Navigation, Section, Link
+import logging
 
 class ProtocolNavPlugin(BasePlugin):
     def on_nav(self, nav: Navigation, config, files):
+        logging.info("Navigation before plugin modification:")
+        self._log_nav(nav)
+
         protocols_dir = os.path.join(config['docs_dir'], 'protocols')
         protocols = []
 
@@ -22,4 +26,22 @@ class ProtocolNavPlugin(BasePlugin):
         protocols_section = Section('Protocols', protocols)
         nav.items.insert(1, protocols_section)  # Insert after Home
 
+        logging.info("Navigation after plugin modification:")
+        self._log_nav(nav)
+
         return nav
+
+    def _log_nav(self, nav, indent=""):
+        if isinstance(nav, Navigation):
+            items = nav.items
+        elif isinstance(nav, Section):
+            items = nav.children
+        else:
+            return
+
+        for item in items:
+            if isinstance(item, Section):
+                logging.info(f"{indent}{item.title}:")
+                self._log_nav(item, indent + "  ")
+            elif isinstance(item, Link):
+                logging.info(f"{indent}{item.title}: {item.url}")
