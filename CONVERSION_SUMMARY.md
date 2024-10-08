@@ -3,7 +3,7 @@
 ## Completed Tasks
 
 1. Converted the site from Gatsby to MkDocs Material
-2. Moved the /site/contents/protocols folder to the top level (/docs/protocols)
+2. Moved the /site/contents/protocols folder to the top level (/docs)
 3. Removed the /site/content/book section
 4. Updated the .gitignore file for Python virtual environments
 5. Created a new mkdocs.yml configuration file
@@ -11,6 +11,7 @@
 7. Fixed critical build and serve issues
 8. Created a pull request (PR #4) with the changes
 9. Commented on the original issue (#3) about the completed work
+10. Updated the URI structure of protocols to match the original Gatsby version
 
 ## Rendering and Behavior
 
@@ -33,4 +34,4 @@ During the conversion process, we encountered some warnings that should be addre
 
 ## Conclusion
 
-The conversion from Gatsby to MkDocs Material has been largely successful, with all main requirements addressed. The site is now building and serving without critical errors. However, there are some minor issues and potential improvements that should be tackled in future updates to ensure the best possible documentation quality and user experience.
+The conversion from Gatsby to MkDocs Material has been largely successful, with all main requirements addressed. The site is now building and serving without critical errors, and the URI structure of protocols has been updated to match the original Gatsby version. However, there are some minor issues and potential improvements that should be tackled in future updates to ensure the best possible documentation quality and user experience.

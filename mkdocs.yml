@@ -55,61 +55,60 @@ copyright: |
 
 nav:
   - Home: index.md
-  - Protocols:
-    - protocols/index.md
-    - Action Menu:
-      - protocols/action-menu/1.0/readme.md
-      - protocols/action-menu/2.0/readme.md
-    - Basic Message:
-      - protocols/basicmessage/1.0/readme.md
-      - protocols/basicmessage/2.0/readme.md
-    - Coordinate Mediation:
-      - protocols/coordinate-mediation/1.0/readme.md
-      - protocols/coordinate-mediation/2.0/readme.md
-      - protocols/coordinate-mediation/3.0/readme.md
-    - Data Agreement Context Decorator:
-      - protocols/data-agreement-context-decorator/1.0/readme.md
-    - Data Agreement Negotiation:
-      - protocols/data-agreement-negotiation/1.0/readme.md
-    - Data Agreement Proofs:
-      - protocols/data-agreement-proofs/1.0/readme.md
-    - Data Agreement Termination:
-      - protocols/data-agreement-termination/1.0/readme.md
-    - Data Disclosure Agreement:
-      - protocols/data-disclosure-agreement/1.0/readme.md
-    - Discover Features:
-      - protocols/discover-features/1.0/readme.md
-      - protocols/discover-features/2.0/readme.md
-    - Issue Credential:
-      - protocols/issue-credential/1.1/readme.md
-      - protocols/issue-credential/2.0/readme.md
-      - protocols/issue-credential/3.0/readme.md
-    - Media Sharing:
-      - protocols/media-sharing/1.0/readme.md
-    - Message Pickup:
-      - protocols/messagepickup/1.0/readme.md
-      - protocols/messagepickup/2.0/readme.md
-      - protocols/messagepickup/3.0/readme.md
-    - Out of Band:
-      - protocols/out-of-band/2.0/readme.md
-    - Present Proof:
-      - protocols/present-proof/1.0/readme.md
-      - protocols/present-proof/2.0/readme.md
-      - protocols/present-proof/3.0/readme.md
-    - Question Answer:
-      - protocols/question-answer/1.0/readme.md
-    - Receipts:
-      - protocols/receipts/1.0/readme.md
-    - Report Problem:
-      - protocols/report-problem/2.0/readme.md
-    - Routing:
-      - protocols/routing/2.0/readme.md
-    - Shorten URL:
-      - protocols/shorten-url/1.0/readme.md
-    - Trust Ping:
-      - protocols/trust-ping/2.0/readme.md
-    - User Profile:
-      - protocols/user-profile/1.0/readme.md
+  - Protocols: protocols.md
+  - Action Menu:
+    - 1.0: action-menu/1.0/readme.md
+    - 2.0: action-menu/2.0/readme.md
+  - Basic Message:
+    - 1.0: basicmessage/1.0/readme.md
+    - 2.0: basicmessage/2.0/readme.md
+  - Coordinate Mediation:
+    - 1.0: coordinate-mediation/1.0/readme.md
+    - 2.0: coordinate-mediation/2.0/readme.md
+    - 3.0: coordinate-mediation/3.0/readme.md
+  - Data Agreement Context Decorator:
+    - 1.0: data-agreement-context-decorator/1.0/readme.md
+  - Data Agreement Negotiation:
+    - 1.0: data-agreement-negotiation/1.0/readme.md
+  - Data Agreement Proofs:
+    - 1.0: data-agreement-proofs/1.0/readme.md
+  - Data Agreement Termination:
+    - 1.0: data-agreement-termination/1.0/readme.md
+  - Data Disclosure Agreement:
+    - 1.0: data-disclosure-agreement/1.0/readme.md
+  - Discover Features:
+    - 1.0: discover-features/1.0/readme.md
+    - 2.0: discover-features/2.0/readme.md
+  - Issue Credential:
+    - 1.1: issue-credential/1.1/readme.md
+    - 2.0: issue-credential/2.0/readme.md
+    - 3.0: issue-credential/3.0/readme.md
+  - Media Sharing:
+    - 1.0: media-sharing/1.0/readme.md
+  - Message Pickup:
+    - 1.0: messagepickup/1.0/readme.md
+    - 2.0: messagepickup/2.0/readme.md
+    - 3.0: messagepickup/3.0/readme.md
+  - Out of Band:
+    - 2.0: out-of-band/2.0/readme.md
+  - Present Proof:
+    - 1.0: present-proof/1.0/readme.md
+    - 2.0: present-proof/2.0/readme.md
+    - 3.0: present-proof/3.0/readme.md
+  - Question Answer:
+    - 1.0: question-answer/1.0/readme.md
+  - Receipts:
+    - 1.0: receipts/1.0/readme.md
+  - Report Problem:
+    - 2.0: report-problem/2.0/readme.md
+  - Routing:
+    - 2.0: routing/2.0/readme.md
+  - Shorten URL:
+    - 1.0: shorten-url/1.0/readme.md
+  - Trust Ping:
+    - 2.0: trust-ping/2.0/readme.md
+  - User Profile:
+    - 1.0: user-profile/1.0/readme.md
   - Maintainer Guide: maintainer-guide.md
   - PR Guide: pr-guide.md
   - Protocol Example: protocol-example.md
