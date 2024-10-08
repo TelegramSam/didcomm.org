@@ -1,0 +1,264 @@
+DEBUG   -  Loading configuration file: /repos/didcomm.org/mkdocs.yml
+DEBUG   -  Loaded theme configuration for 'material' from '/repos/didcomm.org/venv/lib/python3.12/site-packages/material/templates/mkdocs_theme.yml': {'language': 'en', 'direction': None, 'features': [], 'font': {'text': 'Roboto', 'code': 'Roboto Mono'}, 'icon': None, 'favicon': 'assets/images/favicon.png', 'static_templates': ['404.html']}
+DEBUG   -  Config value 'config_file_path' = '/repos/didcomm.org/mkdocs.yml'
+DEBUG   -  Config value 'site_name' = 'DIDComm.org'
+DEBUG   -  Config value 'nav' = [{'Home': 'index.md'}, {'Protocols': 'protocols.md'}, {'Maintainer Guide': 'maintainer-guide.md'}, {'PR Guide': 'pr-guide.md'}, {'Protocol Example': 'protocol-example.md'}]
+DEBUG   -  Config value 'pages' = None
+DEBUG   -  Config value 'exclude_docs' = None
+DEBUG   -  Config value 'draft_docs' = None
+DEBUG   -  Config value 'not_in_nav' = None
+DEBUG   -  Config value 'site_url' = None
+DEBUG   -  Config value 'site_description' = None
+DEBUG   -  Config value 'site_author' = None
+DEBUG   -  Config value 'theme' = Theme(name='material', dirs=['/repos/didcomm.org/venv/lib/python3.12/site-packages/material/templates', '/repos/didcomm.org/venv/lib/python3.12/site-packages/mkdocs/templates'], static_templates={'sitemap.xml', '404.html'}, name='material', locale=Locale('en'), language='en', direction=None, features=['navigation.tabs', 'navigation.sections', 'toc.integrate', 'navigation.top', 'search.suggest', 'search.highlight', 'content.tabs.link', 'content.code.annotation', 'content.code.copy'], font={'text': 'Roboto', 'code': 'Roboto Mono'}, icon=None, favicon='didcomm-logo.png', logo='didcomm-logo.png', palette=[{'scheme': 'default', 'toggle': {'icon': 'material/toggle-switch-off-outline', 'name': 'Switch to dark mode'}, 'primary': 'teal', 'accent': 'purple'}, {'scheme': 'slate', 'toggle': {'icon': 'material/toggle-switch', 'name': 'Switch to light mode'}, 'primary': 'teal', 'accent': 'lime'}])
+DEBUG   -  Config value 'docs_dir' = '/repos/didcomm.org/docs'
+DEBUG   -  Config value 'site_dir' = '/repos/didcomm.org/site'
+DEBUG   -  Config value 'copyright' = '&copy; 2024 <a href="https://github.com/TelegramSam/didcomm.org"  target="_blank" rel="noopener">DIDComm.org</a>\n'
+DEBUG   -  Config value 'google_analytics' = None
+DEBUG   -  Config value 'dev_addr' = _IpAddressValue(host='127.0.0.1', port=8000)
+DEBUG   -  Config value 'use_directory_urls' = True
+DEBUG   -  Config value 'repo_url' = None
+DEBUG   -  Config value 'repo_name' = None
+DEBUG   -  Config value 'edit_uri_template' = None
+DEBUG   -  Config value 'edit_uri' = None
+DEBUG   -  Config value 'extra_css' = []
+DEBUG   -  Config value 'extra_javascript' = []
+DEBUG   -  Config value 'extra_templates' = []
+DEBUG   -  Config value 'markdown_extensions' = ['toc', 'tables', 'fenced_code', 'pymdownx.highlight', 'pymdownx.inlinehilite', 'pymdownx.snippets', 'admonition', 'pymdownx.arithmatex', 'footnotes', 'pymdownx.details', 'pymdownx.superfences', 'pymdownx.mark', 'attr_list', 'pymdownx.emoji']
+DEBUG   -  Config value 'mdx_configs' = {'pymdownx.highlight': {'anchor_linenums': True}, 'pymdownx.arithmatex': {'generic': True}, 'pymdownx.emoji': {'emoji_index': <function twemoji at 0x72b93bfe9e40>, 'emoji_generator': <function to_svg at 0x72b93bfeba60>}}
+DEBUG   -  Config value 'strict' = False
+DEBUG   -  Config value 'remote_branch' = 'gh-pages'
+DEBUG   -  Config value 'remote_name' = 'origin'
+DEBUG   -  Config value 'extra' = {'social': [{'icon': 'fontawesome/brands/github-alt', 'link': 'https://github.com/TelegramSam/didcomm.org'}]}
+DEBUG   -  Config value 'plugins' = {'material/search': <material.plugins.search.plugin.SearchPlugin object at 0x72b93bb84b30>, 'protocol_nav_plugin': <protocol_nav_plugin.ProtocolNavPlugin object at 0x72b93cde8560>}
+DEBUG   -  Config value 'hooks' = {}
+DEBUG   -  Config value 'watch' = []
+DEBUG   -  Config value 'validation' = {'nav': {'omitted_files': 20, 'not_found': 30, 'absolute_links': 20}, 'links': {'not_found': 30, 'absolute_links': 20, 'unrecognized_links': 20, 'anchors': 20}}
+DEBUG   -  Running `startup` event from plugin 'material/search'
+DEBUG   -  Running `config` event from plugin 'material/search'
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/mkdocs/templates/locales'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/material/templates/locales'
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/mkdocs/templates/locales'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/material/templates/locales'
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/mkdocs/templates/locales'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/material/templates/locales'
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /repos/didcomm.org/site
+DEBUG   -  Looking for translations for locale 'en'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/mkdocs/templates/locales'
+DEBUG   -  No translations found here: '/repos/didcomm.org/venv/lib/python3.12/site-packages/material/templates/locales'
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - protocols/action-menu/1.0/readme.md
+  - protocols/action-menu/2.0/readme.md
+  - protocols/basicmessage/1.0/readme.md
+  - protocols/basicmessage/2.0/readme.md
+  - protocols/coordinate-mediation/1.0/readme.md
+  - protocols/coordinate-mediation/2.0/readme.md
+  - protocols/coordinate-mediation/3.0/readme.md
+  - protocols/data-agreement-context-decorator/1.0/readme.md
+  - protocols/data-agreement-negotiation/1.0/readme.md
+  - protocols/data-agreement-proofs/1.0/readme.md
+  - protocols/data-agreement-termination/1.0/readme.md
+  - protocols/data-disclosure-agreement/1.0/readme.md
+  - protocols/discover-features/1.0/readme.md
+  - protocols/discover-features/2.0/readme.md
+  - protocols/issue-credential/1.1/readme.md
+  - protocols/issue-credential/2.0/readme.md
+  - protocols/issue-credential/3.0/readme.md
+  - protocols/media-sharing/1.0/readme.md
+  - protocols/messagepickup/1.0/readme.md
+  - protocols/messagepickup/2.0/readme.md
+  - protocols/messagepickup/3.0/readme.md
+  - protocols/out-of-band/2.0/readme.md
+  - protocols/present-proof/1.0/readme.md
+  - protocols/present-proof/2.0/readme.md
+  - protocols/present-proof/3.0/readme.md
+  - protocols/question-answer/1.0/readme.md
+  - protocols/receipts/1.0/readme.md
+  - protocols/report-problem/2.0/readme.md
+  - protocols/routing/2.0/readme.md
+  - protocols/shorten-url/1.0/readme.md
+  - protocols/trust-ping/2.0/readme.md
+  - protocols/user-profile/1.0/readme.md
+DEBUG   -  Running `nav` event from plugin 'protocol_nav_plugin'
+DEBUG   -  Reading markdown pages.
+DEBUG   -  Reading: index.md
+DEBUG   -  Reading: maintainer-guide.md
+DEBUG   -  Reading: pr-guide.md
+DEBUG   -  Reading: protocol-example.md
+DEBUG   -  Reading: protocols.md
+DEBUG   -  Reading: protocols/action-menu/1.0/readme.md
+DEBUG   -  Reading: protocols/action-menu/2.0/readme.md
+DEBUG   -  Reading: protocols/basicmessage/1.0/readme.md
+DEBUG   -  Reading: protocols/basicmessage/2.0/readme.md
+DEBUG   -  Reading: protocols/coordinate-mediation/1.0/readme.md
+DEBUG   -  Reading: protocols/coordinate-mediation/2.0/readme.md
+DEBUG   -  Reading: protocols/coordinate-mediation/3.0/readme.md
+DEBUG   -  Reading: protocols/data-agreement-context-decorator/1.0/readme.md
+DEBUG   -  Reading: protocols/data-agreement-negotiation/1.0/readme.md
+DEBUG   -  Reading: protocols/data-agreement-proofs/1.0/readme.md
+DEBUG   -  Reading: protocols/data-agreement-termination/1.0/readme.md
+DEBUG   -  Reading: protocols/data-disclosure-agreement/1.0/readme.md
+WARNING -  Doc file 'protocols/data-disclosure-agreement/1.0/readme.md' contains a link '../images/publish-dda-to-marketplace.png', but the target 'protocols/data-disclosure-agreement/images/publish-dda-to-marketplace.png' is not found among documentation files.
+WARNING -  Doc file 'protocols/data-disclosure-agreement/1.0/readme.md' contains a link '../images/negotiate-dda.png', but the target 'protocols/data-disclosure-agreement/images/negotiate-dda.png' is not found among documentation files.
+WARNING -  Doc file 'protocols/data-disclosure-agreement/1.0/readme.md' contains a link '../images/exchange-without-identification.png', but the target 'protocols/data-disclosure-agreement/images/exchange-without-identification.png' is not found among documentation files.
+WARNING -  Doc file 'protocols/data-disclosure-agreement/1.0/readme.md' contains a link '../images/exchange-with-identification.png', but the target 'protocols/data-disclosure-agreement/images/exchange-with-identification.png' is not found among documentation files.
+DEBUG   -  Reading: protocols/discover-features/1.0/readme.md
+DEBUG   -  Reading: protocols/discover-features/2.0/readme.md
+DEBUG   -  Reading: protocols/issue-credential/1.1/readme.md
+DEBUG   -  Reading: protocols/issue-credential/2.0/readme.md
+DEBUG   -  Reading: protocols/issue-credential/3.0/readme.md
+DEBUG   -  Reading: protocols/media-sharing/1.0/readme.md
+DEBUG   -  Reading: protocols/messagepickup/1.0/readme.md
+DEBUG   -  Reading: protocols/messagepickup/2.0/readme.md
+DEBUG   -  Reading: protocols/messagepickup/3.0/readme.md
+DEBUG   -  Reading: protocols/out-of-band/2.0/readme.md
+DEBUG   -  Reading: protocols/present-proof/1.0/readme.md
+DEBUG   -  Reading: protocols/present-proof/2.0/readme.md
+DEBUG   -  Reading: protocols/present-proof/3.0/readme.md
+DEBUG   -  Reading: protocols/question-answer/1.0/readme.md
+DEBUG   -  Reading: protocols/receipts/1.0/readme.md
+DEBUG   -  Reading: protocols/report-problem/2.0/readme.md
+DEBUG   -  Reading: protocols/routing/2.0/readme.md
+DEBUG   -  Reading: protocols/shorten-url/1.0/readme.md
+WARNING -  Doc file 'protocols/shorten-url/1.0/readme.md' contains a link '../0434-outofband/README.md#url-shortening', but the target 'protocols/shorten-url/0434-outofband/README.md' is not found among documentation files.
+WARNING -  Doc file 'protocols/shorten-url/1.0/readme.md' contains a link '../0434-outofband/README.md#url-shortening', but the target 'protocols/shorten-url/0434-outofband/README.md' is not found among documentation files.
+WARNING -  Doc file 'protocols/shorten-url/1.0/readme.md' contains a link '../../concepts/0074-didcomm-best-practices/README.md#time', but the target 'protocols/concepts/0074-didcomm-best-practices/README.md' is not found among documentation files.
+DEBUG   -  Reading: protocols/trust-ping/2.0/readme.md
+DEBUG   -  Reading: protocols/user-profile/1.0/readme.md
+DEBUG   -  Copying static assets.
+DEBUG   -  Copying media file: 'didcomm-logo.png'
+DEBUG   -  Copying media file: 'messaging/contexts/v2/index.json'
+DEBUG   -  Copying media file: 'protocols/action-menu/2.0/state-machines.png'
+DEBUG   -  Copying media file: 'protocols/media-sharing/1.0/media-sharing-as-response.png'
+DEBUG   -  Copying media file: 'protocols/media-sharing/1.0/media-sharing-basic-flow.png'
+DEBUG   -  Copying media file: 'protocols/media-sharing/1.0/media-sharing-receiver-states.png'
+DEBUG   -  Copying media file: 'protocols/media-sharing/1.0/media-sharing-sender-states.png'
+DEBUG   -  Copying media file: 'protocols/receipts/1.0/receipts-flow.png'
+DEBUG   -  Copying media file: 'protocols/user-profile/1.0/profile-exchange.png'
+DEBUG   -  Copying media file: 'assets/images/favicon.png'
+DEBUG   -  Copying media file: 'assets/javascripts/bundle.525ec568.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/bundle.525ec568.min.js.map'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ar.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.da.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.de.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.du.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.el.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.es.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.fi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.fr.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.he.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.hi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.hu.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.hy.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.it.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ja.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.jp.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.kn.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ko.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.multi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.nl.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.no.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.pt.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ro.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ru.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.sa.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.stemmer.support.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.sv.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.ta.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.te.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.th.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.tr.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.vi.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/min/lunr.zh.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/tinyseg.js'
+DEBUG   -  Copying media file: 'assets/javascripts/lunr/wordcut.js'
+DEBUG   -  Copying media file: 'assets/javascripts/workers/search.6ce7567c.min.js'
+DEBUG   -  Copying media file: 'assets/javascripts/workers/search.6ce7567c.min.js.map'
+DEBUG   -  Copying media file: 'assets/stylesheets/main.8c3ca2c6.min.css'
+DEBUG   -  Copying media file: 'assets/stylesheets/main.8c3ca2c6.min.css.map'
+DEBUG   -  Copying media file: 'assets/stylesheets/palette.06af60db.min.css'
+DEBUG   -  Copying media file: 'assets/stylesheets/palette.06af60db.min.css.map'
+DEBUG   -  Building theme template: sitemap.xml
+DEBUG   -  Gzipping template: sitemap.xml
+DEBUG   -  Building theme template: 404.html
+DEBUG   -  Building markdown pages.
+DEBUG   -  Building page index.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page maintainer-guide.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page pr-guide.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocol-example.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/action-menu/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/action-menu/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/basicmessage/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/basicmessage/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/coordinate-mediation/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/coordinate-mediation/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/coordinate-mediation/3.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/data-agreement-context-decorator/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/data-agreement-negotiation/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/data-agreement-proofs/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/data-agreement-termination/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/data-disclosure-agreement/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/discover-features/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/discover-features/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/issue-credential/1.1/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/issue-credential/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/issue-credential/3.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/media-sharing/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/messagepickup/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/messagepickup/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/messagepickup/3.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/out-of-band/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/present-proof/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/present-proof/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/present-proof/3.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/question-answer/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/receipts/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/report-problem/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/routing/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/shorten-url/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/trust-ping/2.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Building page protocols/user-profile/1.0/readme.md
+DEBUG   -  Running `page_context` event from plugin 'material/search'
+DEBUG   -  Running `post_build` event from plugin 'material/search'
+INFO    -  Documentation built in 1.19 seconds
